@@ -144,6 +144,8 @@ Das Projekt ist eine Demo und keine produktive Anwendung. Für den Produktivbetr
 - **Anbindung an S/4HANA**: Kostenstellen und Materialien aus den Standard-APIs lesen, freigegebene BANFen als Bestellanforderung in S/4HANA anlegen
 - **SAP Build Process Automation** für mehrstufige Workflows mit Vertretungsregeln
 
+Derselbe Prozess in ABAP RAP: [sap-rap-purchase-requisition](https://github.com/macleodc708/sap-rap-purchase-requisition)
+
 Verwandtes Projekt: [Lieferantenbewertung als Side-by-Side-Erweiterung zu SAP S/4HANA](https://github.com/macleodc708/sap-cap-supplier-evaluation)
 
 ## Hinweis
