@@ -1,0 +1,67 @@
+{
+  "name": "purchase-requisition",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "@sap/cds": "^10"
+  },
+  "devDependencies": {
+    "@cap-js/cds-test": "^1.0.2",
+    "@cap-js/sqlite": "^3",
+    "@eslint/js": "^9.39.5",
+    "@sap/cds-dk": "^10.2.1",
+    "eslint": "^9.39.5"
+  },
+  "scripts": {
+    "start": "cds-serve",
+    "watch": "cds watch",
+    "test": "node --test --test-reporter=spec \"test/**/*.test.js\"",
+    "lint": "eslint ."
+  },
+  "private": true,
+  "description": "Bestellanforderung mit Freigabeprozess – SAP CAP (Node.js) + Fiori Elements",
+  "cds": {
+    "requisition": {
+      "autoApprovalLimit": 1000,
+      "managerApprovalLimit": 25000
+    },
+    "requires": {
+      "auth": {
+        "kind": "mocked",
+        "users": {
+          "anna": {
+            "password": "demo",
+            "roles": [
+              "Requester"
+            ]
+          },
+          "ben": {
+            "password": "demo",
+            "roles": [
+              "Requester",
+              "Approver"
+            ]
+          },
+          "carla": {
+            "password": "demo",
+            "roles": [
+              "Approver"
+            ]
+          },
+          "david": {
+            "password": "demo",
+            "roles": [
+              "Approver",
+              "PurchasingManager"
+            ]
+          },
+          "*": false
+        }
+      }
+    }
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  }
+}

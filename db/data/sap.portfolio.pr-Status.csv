@@ -1,0 +1,5 @@
+code;name;descr;criticality
+N;New;Not yet submitted;0
+S;Submitted;Waiting for approval;2
+A;Approved;Approved for purchasing;3
+R;Rejected;Rejected by approver;1

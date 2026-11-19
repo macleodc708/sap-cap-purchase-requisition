@@ -1,0 +1,6 @@
+ID;requisitionNo;title;description;costCenter_ID;priority_code;neededBy;status_code;totalAmount;currency_code;createdBy;modifiedBy;decidedBy;decidedAt;rejectionReason
+6f1c1c8e-2c1a-4b7e-9a51-0d6f0a7b1001;10000001;Arbeitsplatz neue Entwicklerin;Ausstattung für Neueinstellung zum 01.02.;2200;H;2027-01-25;S;2157.00;EUR;anna;anna;;;
+6f1c1c8e-2c1a-4b7e-9a51-0d6f0a7b1002;10000002;Kopierpapier Q1;;1000;L;2027-01-10;A;98.00;EUR;anna;anna;system;2026-11-02T09:12:00Z;
+6f1c1c8e-2c1a-4b7e-9a51-0d6f0a7b1003;10000003;Ersatz Datenbankserver;Altes System ist ausgelaufen (End of Life).;2100;H;2027-03-01;S;25800.00;EUR;ben;ben;;;
+6f1c1c8e-2c1a-4b7e-9a51-0d6f0a7b1004;10000004;Messestand Bürostühle;;3100;M;2027-02-15;R;5490.00;EUR;ben;ben;carla;2026-11-05T14:30:00Z;Bitte Angebot für Miete statt Kauf einholen.
+6f1c1c8e-2c1a-4b7e-9a51-0d6f0a7b1005;10000005;Schrauben Linie 3;;4100;M;2027-01-20;N;370.00;EUR;anna;anna;;;
